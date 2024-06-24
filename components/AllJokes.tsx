@@ -20,6 +20,9 @@ const AllJokes = () => {
         ) : data ? (
           <>
             <h3 className="font-semibold">{data.setup}</h3>
+            <h3 className="font-semibold">{data.delivery}</h3>
+            <h3 className="font-semibold">{data.category}</h3>
+
           </>
         ) : null}
       </div>
